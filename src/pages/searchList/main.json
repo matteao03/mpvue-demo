@@ -1,0 +1,7 @@
+{
+	"usingComponents": {
+        "van-search": "/static/vant-weapp/search/index"
+	},
+	"navigationBarTitleText": "搜索",
+	"disableScroll":true
+}

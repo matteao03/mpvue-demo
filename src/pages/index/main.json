@@ -1,0 +1,6 @@
+{
+	"usingComponents": {
+	    "van-icon": "/static/vant-weapp/icon/index"
+	},
+	"disableScroll":true
+}

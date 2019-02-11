@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/mine/main",
+		"pages/law/main",
+		"pages/searchList/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "strayjoke",
+    "navigationBarTextStyle": "black"
+  },
+	"tabBar": {
+		"color":"#999",
+		"selectedColor":"#ff2121",
+		"backgroundColor": "#fff",
+		"borderStyle":"black",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+				"iconPath":"static/images/icon_tabbar_home.png",
+				"selectedIconPath":"static/images/icon_tabbar_home_selected.png"
+      },
+			{
+			  "pagePath": "pages/law/main",
+			  "text": "维权",
+				"iconPath":"static/images/icon_tabbar_plus.png",
+				"selectedIconPath":"static/images/icon_tabbar_plus_selected.png"
+			},
+      {
+        "pagePath": "pages/mine/main",
+        "text": "我的",
+				"iconPath":"static/images/icon_tabbar_mine.png",
+				"selectedIconPath":"static/images/icon_tabbar_mine_selected.png"
+      }
+    ]
+  }
+}
